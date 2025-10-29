@@ -27,7 +27,7 @@ const ClickCounter = () => {
     // Pilih warna acak dari array
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     setBgColor(randomColor);
-  }, [count]); // Efek jalan setiap count berubah
+  }, []); // Efek jalan setiap count berubah
 
   return (
     <div
