@@ -1,0 +1,81 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body dan layout utama */
+body {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar utama */
+.navbar {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Logo / nama website */
+.navbar .logo {
+  color: #1a4ed8;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+/* Menu navigasi */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Link menu */
+.nav-links a {
+  text-decoration: none;
+  color: #1e293b;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #1a4ed8;
+}
+
+/* Area konten utama */
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Judul halaman */
+h1 {
+  color: #1e293b;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/* Tampilan khusus login */
+.login-page {
+  background-color: #ffffff;
+  padding: 60px 80px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
