@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "b125a616-1772-45b1-9337-729634e1a98b",
+		"name": "Tugas 6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49258139",
+		"_collection_link": "https://bungaaprianagultom-4517232.postman.co/workspace/Bunga-Apriana-Gultom's-Workspac~758568e1-3959-47d1-8edb-b2bcadd65e76/collection/49258139-b125a616-1772-45b1-9337-729634e1a98b?action=share&source=collection_link&creator=49258139"
+	},
+	"item": [
+		{
+			"name": "Tugas 6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Haii aku bunga\",\r\n  \"content\": \"Aku masih jomblo loh\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/notes?title=hai aku bunga&content=aku sangat  cantik sekali",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"notes"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "hai aku bunga"
+						},
+						{
+							"key": "content",
+							"value": "aku sangat  cantik sekali"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tugas 6 get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/notes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"notes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
